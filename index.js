@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 
 app.get('/', function(req, res) {
-    res.("Lets go");
+    res.send("Lets go");
 });
 
 app.listen(process.env.PORT || 4000, function(){
